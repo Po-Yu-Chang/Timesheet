@@ -1,0 +1,302 @@
+@charset "utf-8";
+body {
+	margin-top: 0px;
+}
+/* 網頁預設文字顏色 */
+body,td,th {
+	color: #000;
+	font-size: 12px;
+	font-family: "新細明體",Verdana, Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+
+/* 預設網頁超連結顏色設定 */
+a:link,a:active,a:visited { color : #000;font-family: "新細明體",Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: underline; color : #6e6e6e; }
+hr { height: 0px; border: solid #000000 0px; border-top-width: 1px;}
+
+/* 第一組文字超連結顏色如下 */ 
+#link1 a:link { color: #000000; } 
+#link1 a:visited { color: #000000; } 
+#link1 a:hover { color: #000000; } 
+
+/* 第二組文字超連結顏色如下 */ 
+#link2 a:link { color: #ff0000; } 
+#link2 a:visited { color: #ff0000; } 
+#link2 a:hover { color: #ff0000; }
+
+/* 主要版面區塊樣式 */
+#header {
+	height: 80px;
+	width: 770px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	background-image: url(images/main.gif);
+	width: 770px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main1 {
+	background-image: url(images/main1.gif);
+	height: 23px;
+}
+#main2 {
+	float: left;
+	width: 199px;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 6px;
+}
+#main3 {
+	float: right;
+	width: 560px;
+}
+#main4 {
+	background-image: url(images/main4.gif);
+	height: 23px;
+	clear: both;
+}
+#footer {
+	font-size: 12px;
+	color: #666;
+	background-image: url(images/footer.gif);
+	height: 60px;
+	width: 770px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	text-align: center;
+	line-height: 18px;
+}
+
+/* 管理後台版面區塊樣式 */
+#admin_main2 {
+	float: left;
+	width: 555px;
+	padding-right: 5px;
+	padding-left: 6px;
+	text-align: center;
+}
+#admin_main3 {
+	float: right;
+	width: 197px;
+	padding-right: 7px;
+}
+#admin_main3_1 {
+	background-image: url(images/adminback1.gif);
+	height: 30px;
+	width: 197px;
+}
+#admin_main3_2 {
+	background-image: url(images/adminback2.gif);
+	width: 167px;
+	height: 405px;
+	padding-top: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: left;
+	padding-bottom: 1px;
+	line-height: 20px;
+}
+#admin_main3_3 {
+	background-image: url(images/adminback3.gif);
+	width: 197px;
+	height: 19px;
+}
+/* 管理後台文字樣式 */
+#admin_link1 ul {
+	list-style-image: url(images/adminarrow.gif);
+}
+#admin_link1 a:link {
+	color: #000000;
+	font-size: 16px;
+	line-height: 25px;
+} 
+#admin_link1 a:visited { color: #000000; font-size: 16px; line-height: 25px;} 
+#admin_link1 a:hover { color: #000000; font-size: 16px;	line-height: 25px;} 
+#admin_link1 a:active {color: #000000; font-size: 16px;	line-height: 25px;}
+
+/* 會員區輸入欄位樣式 */ 
+.inputstyle1 {
+	color: #000;
+	background-color: #fff;
+	height: 16px;
+	width: 71px;
+	border: 1px solid #cccccc;
+	font-family: Verdana, Geneva, sans-serif;	
+}
+/* 商品搜尋區輸入欄位樣式 */ 
+.inputstyle2 {
+	color: #000;
+	background-color: #fff;
+	height: 18px;
+	width: 91px;
+	border: 1px solid #cccccc;
+	font-family: Verdana, Geneva, sans-serif;	
+}
+/* 文字樣式 */
+.font1 {
+	color: #4e4e4e;
+}
+.font_red {
+	color: #F00;
+}
+.font_red2 {
+	color: #F00;
+	font-weight: bold;
+	font-size: 16px;
+}
+.font_black {
+	color: #000;
+}
+.font_white {
+	color: #fff;
+}
+.font_mini {
+	color: #000;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.font_newstitle1 {
+	color: #6F5E3E;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #6F5E3E;
+}
+.font_title2 {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cacaca;
+}
+.font_title3 {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* 底線樣式-虛線灰 */
+.underline1 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+.underline2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cacaca;
+}
+.underline3 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8d7d79;
+}
+#board_pic {
+	padding: 8px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #cdcdcd;
+	margin-left: 10px;
+	background-color: #FFF;
+}
+#board_namefont {
+	padding: 8px;
+	height: 30px;
+	width: 80px;
+	margin-left: 10px;
+	color: #00339c;
+	font-weight: bold;
+}
+.board_line1 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #d9d9d9;
+	border-right-color: #d9d9d9;
+	border-bottom-color: #d9d9d9;
+	background-color: #FFF;
+}
+.board_post {
+	width: 389;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	padding-bottom: 8px;
+	margin: 15px;
+	background-color: #FFF;
+	line-height: 22px;
+}
+.board_repost {
+	width: 389;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	line-height: 22px;
+}
+.board_repost2 {
+	width: 389;
+	line-height: 22px;
+	margin: 15px;
+	padding: 0px;
+}
+.board_repost3 {
+	width: 379;
+	line-height: 22px;
+	padding: 5px;
+	background-color: #fdfdfd;
+	border: 1px solid #CCC;
+	color: #000;
+}
+.board_add {
+	background-color: #f3f3f3;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #dcdcdc;
+}
+.board_add2 {
+	background-color: #f3f3f3;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #dcdcdc;
+	padding-bottom: 10px;
+}
+.board_add3 {
+	background-color: #f3f3f3;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #dcdcdc;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #ffffff;
+	border-left-color: #dcdcdc;
+}
+/* 新聞詳細頁面區塊樣式 */
+#news_detial1 {
+	width: 545px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.table_lineheight {
+	line-height: 25px;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.mea_h
+{
+	background-color:#063;
+	color:#FFF;
+}
+.mea_m
+{
+	background-color:#CCC;
+	color:#000;
+	alignment-adjust:central;
+	font-size:18px;
+	font-weight:bold;
+}
+.pass
+{
+	background-color:#999;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+	
+}
+.ng
+{
+	background-color:#F00;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+}
+.row
+{
+	background-color:#393;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+}
+td
+{
+	 text-align:center; 
+    vertical-align:middle;
+}
+.th
+{
+	background-color:#9C3;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+}
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
